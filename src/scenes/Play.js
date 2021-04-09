@@ -21,6 +21,8 @@ class Play extends Phaser.Scene {
             borderUISize * 2,
             0x00FF00,
             ).setOrigin(0,0);
+        // add rocket (p1)
+        this.p1Rocket = new Rocket(this, game.config.width/2, 431, 'rocket').setOrigin(0.5, 0);
 
         // white borders
 	    this.add.rectangle(0, 0, game.config.width, borderUISize, 0xFFFFFF).setOrigin(0 ,0);
@@ -30,6 +32,6 @@ class Play extends Phaser.Scene {
     }
 
     update() {
-        this.starfield.tilePositionX -= 4;
+        this.starfield.tilePositionX -= 1;
     }
 }
