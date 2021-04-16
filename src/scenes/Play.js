@@ -4,6 +4,8 @@ class Play extends Phaser.Scene {
     }
 
     preload() {
+        var audio = new Audio('./assets/bensound-summer.mp3');
+        audio.play();
         // load images/tile sprites
         this.load.image('rocket', './assets/rocket.png');
         this.load.image('spaceship', './assets/spaceship.png');
