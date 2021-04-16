@@ -1,5 +1,5 @@
-//Add your own (copyright-free) background music to the Play scene (5) Credit: www.bensound.com
-
+// Add your own (copyright-free) background music to the Play scene (5) Credit: www.bensound.com
+// Allow the player to control the Rocket after it's fired (5)
 
 
 
