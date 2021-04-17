@@ -1,3 +1,8 @@
+// Cheston Chen
+// Rocket Patrol Mod
+// 4/17/2021
+// Time to complete: 6-7 hours
+
 // Add your own (copyright-free) background music to the Play scene (5) Credit: www.bensound.com
 // Allow the player to control the Rocket after it's fired (5)
 // Create a new scrolling tile sprite for the background (5)
