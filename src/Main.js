@@ -3,13 +3,15 @@
 // Create a new scrolling tile sprite for the background (5)
 // Redesign the game's artwork, UI, and sound to change its theme/aesthetic (to something other than sci-fi) (60)
 // Sound effects by: www.fesliyanstudios.com
-
+// Create a new title screen (e.g., new artwork, typography, layout) (10)
+// Create new artwork for all of the in-game assets (rocket, spaceships, explosion) (20) 
 
 
 let config = {
     type: Phaser.AUTO,
     width: 640,
     height: 480,
+    backgroundColor: '#05b1e6',
     scene: [Menu, Play],
 }
 
