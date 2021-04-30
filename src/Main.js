@@ -7,6 +7,7 @@
 // Allow the player to control the Rocket after it's fired (5)
 // Implement the 'FIRE' UI text from the original game (5)
 // Track a high score that persists across scenes and display it in the UI (5)
+// Create 4 new explosion SFX and randomize which one plays on impact (10)
 // Redesign the game's artwork, UI, and sound to change its theme/aesthetic (to something other than sci-fi) (60)
 // Sound effects by: www.fesliyanstudios.com
 
