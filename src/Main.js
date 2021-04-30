@@ -5,11 +5,10 @@
 
 // Add your own (copyright-free) background music to the Play scene (5) Credit: www.bensound.com
 // Allow the player to control the Rocket after it's fired (5)
-// Create a new scrolling tile sprite for the background (5)
+// Track a high score that persists across scenes and display it in the UI (5)
 // Redesign the game's artwork, UI, and sound to change its theme/aesthetic (to something other than sci-fi) (60)
 // Sound effects by: www.fesliyanstudios.com
-// Create a new title screen (e.g., new artwork, typography, layout) (10)
-// Create new artwork for all of the in-game assets (rocket, spaceships, explosion) (20) 
+
 
 
 let config = {
@@ -25,3 +24,4 @@ let game = new Phaser.Game(config);
 let keyF, keyR, keyLEFT, keyRIGHT;
 let borderUISize = game.config.height / 15;
 let borderPadding = borderUISize / 3;
+let highScore= 0;
